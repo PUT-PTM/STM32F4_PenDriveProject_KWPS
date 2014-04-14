@@ -1,7 +1,7 @@
-#include <stdio>
+//#include <stdio>
 #include<string.h>
 #include "stm32f4xx.h"
-#include "ff.c"
+//#include "ff.c"
 
 ///////////////////////////////////////////////////
 #include "stm32f4xx_gpio.h"

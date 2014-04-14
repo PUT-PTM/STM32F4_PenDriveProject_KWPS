@@ -1,32 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F4_PenDriveProject_KWPS\cmsis -I..\..\..\..\..\Users\Piotr -I..\..\..\workspace -I..\..\..\workspace\STM32F4_PenDriveProject_KWPS\cmsis_lib -I..\..\..\workspace\STM32F4_PenDriveProject_KWPS -I..\..\..\workspace\STM32F4_PenDriveProject_KWPS\cmsis_boot -I..\..\..\..\..\Users\Piotr\Desktop -I..\..\..\workspace\STM32F4_PenDriveProject_KWPS\cmsis_lib\include -I..\..\..\..\..\Users\Piotr\Desktop\src">
-      <target file="stm32f4xx_gpio.o" lastModified="1452bdd818d">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1452bd5096f"/>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\witkowski01\Documents\GitHub -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_lib -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_lib\include -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_boot -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis">
+      <target file="stm32_ub_led.o" lastModified="145608d4e2e">
+         <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="145608c9612"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="1452bdd82e4">
-         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1452bd4ed2a"/>
+      <target file="stm32f4xx_rcc.o" lastModified="145608d5069">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1455b1ec6ab"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="1452bdd723b">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1452bd4ecad"/>
+      <target file="misc.o" lastModified="145608d52a7">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1455b1ec69d"/>
       </target>
-      <target file="unicode.o" lastModified="1452bdd6dda">
-         <source file="..\..\..\..\..\..\..\Users\Piotr\Desktop\src\option\unicode.c" lastModified="14392e1c450"/>
+      <target file="system_stm32f4xx.o" lastModified="145608d51f6">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1455b1ec68d"/>
       </target>
-      <target file="main.o" lastModified="1452bdd7344">
-         <source file="..\..\..\main.c" lastModified="1452bd39a9d"/>
+      <target file="stm32f4xx_gpio.o" lastModified="145608d514c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1455b1ec6a9"/>
       </target>
-      <target file="ff.o" lastModified="1452bdd8c2b">
-         <source file="..\..\..\..\..\..\..\Users\Piotr\Desktop\src\ff.c" lastModified="14392e1c450"/>
-      </target>
-      <target file="syscall.o" lastModified="1452bdd7c7c">
-         <source file="..\..\..\..\..\..\..\Users\Piotr\Desktop\src\option\syscall.c" lastModified="14392e1c450"/>
-      </target>
-      <target file="stm32f4xx_rcc.o" lastModified="1452bdd7604">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1452bd509cc"/>
-      </target>
-      <target file="misc.o" lastModified="1452bdd8da2">
-         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1452bd53707"/>
+      <target file="startup_stm32f4xx.o" lastModified="145608d4d24">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1455b1ec663"/>
       </target>
    </processor>
 </history>
