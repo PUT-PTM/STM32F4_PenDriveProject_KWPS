@@ -1,22 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\witkowski01\Documents\GitHub -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_lib -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_lib\include -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_boot -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis">
-      <target file="stm32_ub_led.o" lastModified="145608d4e2e">
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\witkowski01\Documents\GitHub -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_lib -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_lib\include -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib\fatfs -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_boot -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis">
+      <target file="stm32_ub_led.o" lastModified="1456092747d">
          <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="145608c9612"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="145608d5069">
+      <target file="stm32f4xx_rcc.o" lastModified="145609276a8">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1455b1ec6ab"/>
       </target>
-      <target file="misc.o" lastModified="145608d52a7">
-         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1455b1ec69d"/>
+      <target file="ff.o" lastModified="145609279da">
+         <source file="..\..\..\ub_lib\fatfs\ff.c" lastModified="13c69e0ed30"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="145608d51f6">
+      <target file="system_stm32f4xx.o" lastModified="14560927801">
          <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1455b1ec68d"/>
       </target>
-      <target file="stm32f4xx_gpio.o" lastModified="145608d514c">
+      <target file="misc.o" lastModified="14560927a82">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1455b1ec69d"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14560927759">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1455b1ec6a9"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="145608d4d24">
+      <target file="main.o" lastModified="145609567b0">
+         <source file="..\..\..\main.c" lastModified="1456095618c"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1456092739e">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1455b1ec663"/>
       </target>
    </processor>
