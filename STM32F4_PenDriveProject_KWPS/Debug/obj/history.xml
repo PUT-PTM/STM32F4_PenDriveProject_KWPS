@@ -10,17 +10,17 @@
       <target file="ff.o" lastModified="145609279da">
          <source file="..\..\..\ub_lib\fatfs\ff.c" lastModified="13c69e0ed30"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="14560927801">
-         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1455b1ec68d"/>
-      </target>
       <target file="misc.o" lastModified="14560927a82">
          <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1455b1ec69d"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14560927801">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1455b1ec68d"/>
       </target>
       <target file="stm32f4xx_gpio.o" lastModified="14560927759">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1455b1ec6a9"/>
       </target>
       <target file="main.o" lastModified="145609567b0">
-         <source file="..\..\..\main.c" lastModified="1456095618c"/>
+         <source file="..\..\..\main.c" lastModified="145650db5ab"/>
       </target>
       <target file="startup_stm32f4xx.o" lastModified="1456092739e">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1455b1ec663"/>
