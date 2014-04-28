@@ -1,83 +1,86 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib\usb_msc_host_lolevel -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib\fatfs\lo_level_ub -I..\..\..\..\..\Users\witkowski01\Documents\GitHub -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_lib -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_lib\include -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib\fatfs -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_boot -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis">
-      <target file="stm32f4xx_gpio.o" lastModified="1458d99d02b">
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib\usb_msc_host_lolevel -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib\fatfs\lo_level_ub -I..\..\..\..\..\Users\witkowski01\Documents -I..\..\..\..\..\Users\witkowski01\Documents\GitHub -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_lib -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_lib\include -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\ub_lib\fatfs -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis_boot -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS -I..\..\..\..\..\Users\witkowski01\Documents\GitHub\STM32F4_PenDriveProject_KWPS\cmsis">
+      <target file="stm32f4xx_gpio.o" lastModified="145a88fe86a">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1455b1ec6a9"/>
       </target>
-      <target file="usbh_core.o" lastModified="1458d99cf18">
+      <target file="usbh_core.o" lastModified="145a88fe735">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_core.c" lastModified="13df9634790"/>
       </target>
-      <target file="diskio.o" lastModified="1458d99c9d0">
+      <target file="diskio.o" lastModified="145a88fe0e4">
          <source file="..\..\..\ub_lib\fatfs\diskio.c" lastModified="13df8dbfec0"/>
       </target>
-      <target file="stm32_ub_usbdisk.o" lastModified="1458d99d0e7">
+      <target file="stm32_ub_usbdisk.o" lastModified="145a88fe94b">
          <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_usbdisk.c" lastModified="13e04490370"/>
       </target>
-      <target file="usbh_msc_core.o" lastModified="1458d99ce2a">
+      <target file="usbh_msc_core.o" lastModified="145a88fe60f">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_core.c" lastModified="13e04170e60"/>
       </target>
-      <target file="usbh_msc_scsi.o" lastModified="1458d99d1c6">
+      <target file="usbh_msc_scsi.o" lastModified="145a88fea51">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_scsi.c" lastModified="13e04176c20"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="1458d99ca5a">
+      <target file="startup_stm32f4xx.o" lastModified="145a88fe184">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1455b1ec663"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="1458d99d26c">
+      <target file="system_stm32f4xx.o" lastModified="145a88feaf0">
          <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1455b1ec68d"/>
       </target>
-      <target file="usb_bsp.o" lastModified="1458d99d482">
+      <target file="usb_bsp.o" lastModified="145a88fed2b">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_bsp.c" lastModified="13e046d8b00"/>
       </target>
-      <target file="ccsbcs.o" lastModified="1458d99d3ae">
+      <target file="ccsbcs.o" lastModified="145a88fec30">
          <source file="..\..\..\ub_lib\fatfs\ccsbcs.c" lastModified="13c4fa3e2b0"/>
       </target>
-      <target file="misc.o" lastModified="1458d99d969">
+      <target file="misc.o" lastModified="145a88ff258">
          <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1455b1ec69d"/>
       </target>
-      <target file="usbh_msc_bot.o" lastModified="1458d99d814">
+      <target file="usbh_msc_bot.o" lastModified="145a88ff0e8">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_msc_bot.c" lastModified="13e04169930"/>
       </target>
-      <target file="stm32_ub_sdcard.o" lastModified="1458d99cf9a">
+      <target file="stm32_ub_sdcard.o" lastModified="145a88fe7b7">
          <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_sdcard.c" lastModified="13edfd18b60"/>
       </target>
-      <target file="stm32_ub_led.o" lastModified="1458d99cad2">
+      <target file="stm32_ub_led.o" lastModified="145a88fe22c">
          <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="145608c9612"/>
       </target>
-      <target file="usb_hcd_int.o" lastModified="1458d99da90">
+      <target file="usb_hcd_int.o" lastModified="145a88ff3a9">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd_int.c" lastModified="13e0470c720"/>
       </target>
-      <target file="stm32_ub_usb_msc_host.o" lastModified="1458d99c78a">
+      <target file="stm32_ub_usb_msc_host.o" lastModified="145a88fde27">
          <source file="..\..\..\ub_lib\stm32_ub_usb_msc_host.c" lastModified="13e047faba0"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="1458d99cd43">
+      <target file="stm32f4xx_rcc.o" lastModified="145a88fe4be">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1455b1ec6ab"/>
       </target>
-      <target file="usbh_ioreq.o" lastModified="1458d99d8e1">
+      <target file="usbh_ioreq.o" lastModified="145a88ff1af">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_ioreq.c" lastModified="13df9536910"/>
       </target>
-      <target file="usbh_usr.o" lastModified="1458d99d34b">
+      <target file="usbh_usr.o" lastModified="145a88febdc">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_usr.c" lastModified="13e04738e10"/>
       </target>
-      <target file="usb_core.o" lastModified="1458d99c6fe">
+      <target file="usb_core.o" lastModified="145a88fdd72">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_core.c" lastModified="13e0412e010"/>
       </target>
-      <target file="usbh_hcs.o" lastModified="1458d99c831">
+      <target file="usbh_hcs.o" lastModified="145a88fdf1e">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_hcs.c" lastModified="13df9515da0"/>
       </target>
-      <target file="stm32_ub_atadrive.o" lastModified="1458d99d504">
+      <target file="stm32_ub_atadrive.o" lastModified="145a88fedbc">
          <source file="..\..\..\ub_lib\fatfs\lo_level_ub\stm32_ub_atadrive.c" lastModified="13edfd173f0"/>
       </target>
-      <target file="stm32_ub_fatfs.o" lastModified="1458d99cc7a">
+      <target file="stm32_ub_fatfs.o" lastModified="145a88fe3dc">
          <source file="..\..\..\ub_lib\stm32_ub_fatfs.c" lastModified="13edfd09160"/>
       </target>
-      <target file="ff.o" lastModified="1458d99d653">
+      <target file="ff.o" lastModified="145a88fef3f">
          <source file="..\..\..\ub_lib\fatfs\ff.c" lastModified="13c69e0ed30"/>
       </target>
-      <target file="usbh_stdreq.o" lastModified="1458d99c936">
+      <target file="usbh_stdreq.o" lastModified="145a88fe01a">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usbh_stdreq.c" lastModified="13df95db1e0"/>
       </target>
-      <target file="usb_hcd.o" lastModified="1458d99d72e">
+      <target file="usb_hcd.o" lastModified="145a88ff00f">
          <source file="..\..\..\ub_lib\usb_msc_host_lolevel\usb_hcd.c" lastModified="13e04703a80"/>
+      </target>
+      <target file="main.o" lastModified="145a88fe304">
+         <source file="..\..\..\main.c" lastModified="145a88fd93a"/>
       </target>
    </processor>
 </history>

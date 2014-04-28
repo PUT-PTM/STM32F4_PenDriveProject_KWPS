@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.4 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=STM32F4_PenDriveProject_KWPS.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F4_PenDriveProject_KWPS -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F4_PenDriveProject_KWPS/arm-gcc-link.ld -g">
+      <target file="STM32F4_PenDriveProject_KWPS.elf" lastModified="145a88ff649">
+         <source file="..\obj\usb_core.o" lastModified="145a88fdd72"/>
+         <source file="..\obj\stm32_ub_usb_msc_host.o" lastModified="145a88fde27"/>
+         <source file="..\obj\usbh_hcs.o" lastModified="145a88fdf1e"/>
+         <source file="..\obj\usbh_stdreq.o" lastModified="145a88fe01a"/>
+         <source file="..\obj\diskio.o" lastModified="145a88fe0e4"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="145a88fe184"/>
+         <source file="..\obj\stm32_ub_led.o" lastModified="145a88fe22c"/>
+         <source file="..\obj\main.o" lastModified="145a88fe304"/>
+         <source file="..\obj\stm32_ub_fatfs.o" lastModified="145a88fe3dc"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="145a88fe4be"/>
+         <source file="..\obj\usbh_msc_core.o" lastModified="145a88fe60f"/>
+         <source file="..\obj\usbh_core.o" lastModified="145a88fe735"/>
+         <source file="..\obj\stm32_ub_sdcard.o" lastModified="145a88fe7b7"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="145a88fe86a"/>
+         <source file="..\obj\stm32_ub_usbdisk.o" lastModified="145a88fe94b"/>
+         <source file="..\obj\usbh_msc_scsi.o" lastModified="145a88fea51"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="145a88feaf0"/>
+         <source file="..\obj\usbh_usr.o" lastModified="145a88febdc"/>
+         <source file="..\obj\ccsbcs.o" lastModified="145a88fec30"/>
+         <source file="..\obj\usb_bsp.o" lastModified="145a88fed2b"/>
+         <source file="..\obj\stm32_ub_atadrive.o" lastModified="145a88fedbc"/>
+         <source file="..\obj\ff.o" lastModified="145a88fef3f"/>
+         <source file="..\obj\usb_hcd.o" lastModified="145a88ff00f"/>
+         <source file="..\obj\usbh_msc_bot.o" lastModified="145a88ff0e8"/>
+         <source file="..\obj\usbh_ioreq.o" lastModified="145a88ff1af"/>
+         <source file="..\obj\misc.o" lastModified="145a88ff258"/>
+         <source file="..\obj\usb_hcd_int.o" lastModified="145a88ff3a9"/>
+      </target>
+   </processor>
+</history>
