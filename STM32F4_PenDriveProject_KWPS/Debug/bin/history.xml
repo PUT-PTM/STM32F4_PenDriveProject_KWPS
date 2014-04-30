@@ -1,34 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="4.7.4 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=STM32F4_PenDriveProject_KWPS.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F4_PenDriveProject_KWPS -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F4_PenDriveProject_KWPS/arm-gcc-link.ld -g">
-      <target file="STM32F4_PenDriveProject_KWPS.elf" lastModified="145b1d74deb">
-         <source file="..\obj\usb_core.o" lastModified="145b1d73745"/>
-         <source file="..\obj\stm32_ub_usb_msc_host.o" lastModified="145b1d737e8"/>
-         <source file="..\obj\usbh_hcs.o" lastModified="145b1d738ae"/>
-         <source file="..\obj\usbh_stdreq.o" lastModified="145b1d73996"/>
-         <source file="..\obj\diskio.o" lastModified="145b1d73a58"/>
-         <source file="..\obj\startup_stm32f4xx.o" lastModified="145b1d73b0a"/>
-         <source file="..\obj\stm32_ub_led.o" lastModified="145b1d73b92"/>
-         <source file="..\obj\main.o" lastModified="145b1d73c63"/>
-         <source file="..\obj\stm32_ub_fatfs.o" lastModified="145b1d73d40"/>
-         <source file="..\obj\stm32f4xx_rcc.o" lastModified="145b1d73e05"/>
-         <source file="..\obj\usbh_msc_core.o" lastModified="145b1d73efd"/>
-         <source file="..\obj\usbh_core.o" lastModified="145b1d73fdf"/>
-         <source file="..\obj\stm32_ub_sdcard.o" lastModified="145b1d74060"/>
-         <source file="..\obj\stm32f4xx_gpio.o" lastModified="145b1d74101"/>
-         <source file="..\obj\stm32_ub_usbdisk.o" lastModified="145b1d741c3"/>
-         <source file="..\obj\usbh_msc_scsi.o" lastModified="145b1d74290"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="145b1d74325"/>
-         <source file="..\obj\usbh_usr.o" lastModified="145b1d74417"/>
-         <source file="..\obj\ccsbcs.o" lastModified="145b1d7446c"/>
-         <source file="..\obj\usb_bsp.o" lastModified="145b1d74553"/>
-         <source file="..\obj\stm32_ub_atadrive.o" lastModified="145b1d745de"/>
-         <source file="..\obj\ff.o" lastModified="145b1d7472e"/>
-         <source file="..\obj\usb_hcd.o" lastModified="145b1d747dd"/>
-         <source file="..\obj\usbh_msc_bot.o" lastModified="145b1d748ab"/>
-         <source file="..\obj\usbh_ioreq.o" lastModified="145b1d7496e"/>
-         <source file="..\obj\misc.o" lastModified="145b1d74a00"/>
-         <source file="..\obj\usb_hcd_int.o" lastModified="145b1d74b47"/>
+      <target file="STM32F4_PenDriveProject_KWPS.elf" lastModified="145b1f1336b">
+         <source file="..\obj\usb_core.o" lastModified="145b1f0f7a2"/>
+         <source file="..\obj\stm32_ub_usb_msc_host.o" lastModified="145b1f0f9a5"/>
+         <source file="..\obj\usbh_hcs.o" lastModified="145b1f0fb1c"/>
+         <source file="..\obj\usbh_stdreq.o" lastModified="145b1f0fcf1"/>
+         <source file="..\obj\funkcje.o" lastModified="145b1f0feb6"/>
+         <source file="..\obj\diskio.o" lastModified="145b1f1006c"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="145b1f10156"/>
+         <source file="..\obj\stm32_ub_led.o" lastModified="145b1f1028e"/>
+         <source file="..\obj\main.o" lastModified="145b1f1033a"/>
+         <source file="..\obj\stm32_ub_fatfs.o" lastModified="145b1f1053e"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="145b1f10732"/>
+         <source file="..\obj\init.o" lastModified="145b1f1086a"/>
+         <source file="..\obj\usbh_msc_core.o" lastModified="145b1f10a10"/>
+         <source file="..\obj\usbh_core.o" lastModified="145b1f10c14"/>
+         <source file="..\obj\stm32_ub_sdcard.o" lastModified="145b1f10d2d"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="145b1f10ea4"/>
+         <source file="..\obj\stm32_ub_usbdisk.o" lastModified="145b1f11089"/>
+         <source file="..\obj\usbh_msc_scsi.o" lastModified="145b1f1124e"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="145b1f11377"/>
+         <source file="..\obj\syscalls.o" lastModified="145b1f114af"/>
+         <source file="..\obj\usbh_usr.o" lastModified="145b1f11665"/>
+         <source file="..\obj\ccsbcs.o" lastModified="145b1f1173f"/>
+         <source file="..\obj\usb_bsp.o" lastModified="145b1f11905"/>
+         <source file="..\obj\stm32_ub_atadrive.o" lastModified="145b1f11a1e"/>
+         <source file="..\obj\ff.o" lastModified="145b1f11f6d"/>
+         <source file="..\obj\usb_hcd.o" lastModified="145b1f120e4"/>
+         <source file="..\obj\usbh_msc_bot.o" lastModified="145b1f122a9"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="145b1f123f1"/>
+         <source file="..\obj\usbh_ioreq.o" lastModified="145b1f125a7"/>
+         <source file="..\obj\misc.o" lastModified="145b1f126d0"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="145b1f12a6a"/>
+         <source file="..\obj\usb_hcd_int.o" lastModified="145b1f12e27"/>
       </target>
    </processor>
 </history>
