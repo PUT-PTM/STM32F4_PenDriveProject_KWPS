@@ -3,8 +3,8 @@
 <workbenchAdvisor/>
 <window>
 <fastViewData fastViewLocation="1024">
-<orientation position="512" view="org.coocox.builder.ui.views.ProjectView"/>
 <orientation position="512" view="org.coocox.component.ui.ComponentView"/>
+<orientation position="512" view="org.coocox.builder.ui.views.ProjectView"/>
 <orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
 <orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
 </fastViewData>
@@ -37,7 +37,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/main.h" title="main.h" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/main.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/main.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2951" selectionTopPixel="1693"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3334" selectionTopPixel="1858"/>
 </editor>
 </editors>
 <views>
@@ -252,8 +252,6 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_led.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_usb_msc_host.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_usb_msc_host.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_usb_msc_host.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/ub_lib/fatfs/ff.c"/>
@@ -270,37 +268,25 @@
 <item historyLabel="stm32_ub_usb_msc_host.h" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="stm32_ub_led.c" index="1">
-<position info="not_deleted" x="2680" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="465" y="17"/>
-</item>
-<item historyLabel="stm32_ub_usb_msc_host.c" index="3">
+<item historyLabel="stm32_ub_usb_msc_host.c" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="stm32_ub_usb_msc_host.h" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="stm32_ub_usb_msc_host.c" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="stm32_ub_usb_msc_host.h" index="4">
+<item historyLabel="stm32_ub_usb_msc_host.h" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="320" y="0"/>
 </item>
-<item historyLabel="ff.c" index="5">
+<item historyLabel="ff.c" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="diskio.c" index="6">
+<item historyLabel="diskio.c" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="diskio.h" index="7">
+<item historyLabel="diskio.h" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="diskio.c" index="6">
+<item historyLabel="diskio.c" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
@@ -315,7 +301,7 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="3737" y="0"/>
 </item>
-<item historyLabel="ccsbcs.c" index="8">
+<item historyLabel="ccsbcs.c" index="6">
 <position info="not_deleted" x="919" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
@@ -327,93 +313,105 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="1676" y="52"/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="welcome" index="10"/>
+<item historyLabel="welcome" index="8"/>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="0" y="613"/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="2668" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="2668" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="858" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position info="not_deleted" x="3464" y="9"/>
 </item>
-<item historyLabel="ff.c" index="12">
+<item historyLabel="ff.c" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ff.c" index="12">
+<item historyLabel="ff.c" index="10">
 <position info="not_deleted" x="38839" y="3"/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="858" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position info="not_deleted" x="2855" y="0"/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="508" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position info="not_deleted" x="3383" y="16"/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="1061" y="15"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position info="not_deleted" x="3383" y="16"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position info="not_deleted" x="3400" y="0"/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="1061" y="15"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="1329" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="1393" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position/>
 </item>
-<item historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="1479" y="0"/>
 </item>
-<item historyLabel="main.c" index="11">
+<item historyLabel="main.c" index="9">
 <position/>
 </item>
-<item active="true" historyLabel="main.h" index="9">
+<item historyLabel="main.h" index="7">
 <position info="not_deleted" x="1479" y="0"/>
+</item>
+<item historyLabel="main.h" index="7">
+<position/>
+</item>
+<item historyLabel="main.h" index="7">
+<position info="not_deleted" x="2921" y="0"/>
+</item>
+<item historyLabel="main.h" index="7">
+<position info="not_deleted" x="2951" y="0"/>
+</item>
+<item active="true" historyLabel="main.h" index="7">
+<position info="not_deleted" x="3357" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
