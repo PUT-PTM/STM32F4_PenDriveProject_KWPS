@@ -1,20 +1,12 @@
-#include "stm32f4xx.h"
-#include "stm32f4xx_gpio.h"
-#include "stm32f4xx_rcc.h"
-#include "stm32f4xx_tim.h"
-#include "misc.h"
-#include "stm32f4xx_exti.h"
-#include "stm32_ub_usb_msc_host.h"
-#include "stm32_ub_led.h"
+//------------------------------------------------------------------------
+// Authors: Konrad Witkowski  &  Piotr Szczap
+//------------------------------------------------------------------------
+
+
 #include "funkcje.h"
 
 
-
-char lfnBuffer[512];
-char sBuffer[256];
-char sBuffer2Write[1024];
-
-
+// usuwanie_plikow
 void usuwanie_plikow(void)
 {
 
@@ -28,12 +20,19 @@ void usuwanie_plikow(void)
   char *path="";
   char *fn; // This function is assuming non-Unicode cfg.
 
+  //	//#PL#  inicjalizacja CPU
+  //	//#ENG# initiation of CPU
   SystemInit ( );
+
+  //	//#PL#  inicjalizacja LED
+  //	//#ENG#  initiation of LED
   UB_Led_Init ( );
+
+  // inicjacja USB jako HOST
   UB_USB_MSC_HOST_Init ( );
 
 
-
+// LFN - rozmiar nawy pliku
   fno.lfname = lfnBuffer;
   fno.lfsize = sizeof ( lfnBuffer );
   unsigned int counter =0;
@@ -103,20 +102,14 @@ void usuwanie_plikow(void)
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+// Menu
 
 void menu(void)
 {
@@ -156,7 +149,8 @@ void menu(void)
 			}
 			if(p==10000000)
 				p=0;
-		}
+		}//while(!GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_0))
+
 		UB_Led_Off(LED_GREEN);
 		UB_Led_Off(LED_RED);
 		UB_Led_Off(LED_ORANGE);
@@ -179,8 +173,8 @@ void menu(void)
 
 		}
 
-	}
-}
+	}// while(1)
+}// menu
 
 
 

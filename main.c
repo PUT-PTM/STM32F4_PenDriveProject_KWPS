@@ -1,4 +1,8 @@
-#include "funkcje.h"
+//------------------------------------------------------------------------
+// Authors: Konrad Witkowski  &  Piotr Szczap
+//------------------------------------------------------------------------
+
+#include "main.h"
 
 
 void main(void)
@@ -6,5 +10,3 @@ void main(void)
 	menu();
 
 }
-
-
