@@ -3,8 +3,8 @@
 <workbenchAdvisor/>
 <window>
 <fastViewData fastViewLocation="1024">
-<orientation position="512" view="org.coocox.builder.ui.views.ProjectView"/>
 <orientation position="512" view="org.coocox.component.ui.ComponentView"/>
+<orientation position="512" view="org.coocox.builder.ui.views.ProjectView"/>
 <orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
 <orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
 </fastViewData>
@@ -19,25 +19,45 @@
 <part id="3"/>
 <part id="1"/>
 <part id="2"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/main.c" title="main.c" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="259" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="212" selectionTopPixel="0"/>
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="funkcje.c" partName="funkcje.c" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/funkcje.c" title="funkcje.c" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/funkcje.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/funkcje.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="643" selectionTopPixel="129"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1252" selectionTopPixel="720"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="funkcje.h" partName="funkcje.h" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/funkcje.h" title="funkcje.h" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/funkcje.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/funkcje.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="199" selectionOffset="0" selectionTopPixel="87"/>
+<editorState selectionHorizontalPixel="0" selectionLength="289" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/main.h" title="main.h" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/main.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/main.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="592" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="87" selectionOffset="199" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usuwanie_plikow.c" partName="usuwanie_plikow.c" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/usuwanie_plikow.c" title="usuwanie_plikow.c" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/usuwanie_plikow.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/usuwanie_plikow.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="223" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usuwanie_plikow.h" partName="usuwanie_plikow.h" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/usuwanie_plikow.h" title="usuwanie_plikow.h" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/usuwanie_plikow.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/usuwanie_plikow.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="859" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lista_plikow.h" partName="lista_plikow.h" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/lista_plikow.h" title="lista_plikow.h" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/lista_plikow.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/lista_plikow.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="218" selectionTopPixel="72"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lista_plikow.c" partName="lista_plikow.c" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/lista_plikow.c" title="lista_plikow.c" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/lista_plikow.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/lista_plikow.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1184" selectionTopPixel="495"/>
 </editor>
 </editors>
 <views>
@@ -51,6 +71,9 @@
 <expanded>
 <element path="/STM32F4_PenDriveProject_KWPS"/>
 </expanded>
+<selection>
+<element path="/STM32F4_PenDriveProject_KWPS/lista_plikow.c"/>
+</selection>
 </viewState>
 </view>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
@@ -131,6 +154,7 @@
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1ca04a1" ratio="0.74920636" ratioLeft="472" ratioRight="158" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.cdt.ui.callHierarchy" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
@@ -248,165 +272,165 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/funkcje.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/funkcje.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/usuwanie_plikow.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/usuwanie_plikow.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/main.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/lista_plikow.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/lista_plikow.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/main.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/funkcje.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/main.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/funkcje.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/funkcje.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_usb_msc_host.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/ub_lib/usb_msc_host_lolevel/usbh_core.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/ub_lib/usb_msc_host_lolevel/usb_bsp.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/lib/init.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/lib/init.h"/>
 </editors>
-<item historyLabel="funkcje.h" index="3">
-<position info="not_deleted" x="291" y="0"/>
+<item historyLabel="funkcje.h" index="1">
+<position info="not_deleted" x="774" y="0"/>
 </item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="0" y="288"/>
+<item historyLabel="funkcje.h" index="1">
+<position/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="218" y="0"/>
+<item historyLabel="usuwanie_plikow.h" index="3">
+<position info="not_deleted" x="529" y="0"/>
 </item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="0" y="288"/>
+<item historyLabel="funkcje.h" index="1">
+<position/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="218" y="0"/>
+<item historyLabel="usuwanie_plikow.h" index="3">
+<position/>
 </item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="0" y="288"/>
+<item historyLabel="lista_plikow.h" index="5">
+<position/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="218" y="0"/>
+<item historyLabel="usuwanie_plikow.h" index="3">
+<position/>
 </item>
-<item historyLabel="funkcje.h" index="3">
-<position info="not_deleted" x="211" y="0"/>
+<item historyLabel="lista_plikow.h" index="5">
+<position/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="218" y="0"/>
+<item historyLabel="usuwanie_plikow.h" index="3">
+<position/>
 </item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="596" y="174"/>
-</item>
-<item historyLabel="funkcje.h" index="3">
-<position info="not_deleted" x="826" y="0"/>
-</item>
-<item historyLabel="funkcje.c" index="0">
-<position info="not_deleted" x="3541" y="0"/>
-</item>
-<item historyLabel="funkcje.h" index="3">
-<position info="not_deleted" x="853" y="0"/>
-</item>
-<item historyLabel="funkcje.c" index="0">
-<position info="not_deleted" x="696" y="0"/>
-</item>
-<item historyLabel="funkcje.h" index="3">
-<position info="not_deleted" x="853" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="259" y="0"/>
-</item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="574" y="0"/>
-</item>
-<item historyLabel="funkcje.c" index="0">
-<position info="not_deleted" x="696" y="0"/>
-</item>
-<item historyLabel="funkcje.h" index="3">
-<position info="not_deleted" x="646" y="74"/>
-</item>
-<item historyLabel="funkcje.c" index="0">
-<position info="not_deleted" x="696" y="0"/>
-</item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="476" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="259" y="0"/>
-</item>
-<item historyLabel="funkcje.c" index="0">
-<position info="not_deleted" x="696" y="0"/>
-</item>
-<item historyLabel="funkcje.h" index="3">
-<position info="not_deleted" x="646" y="74"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="224" y="15"/>
-</item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="592" y="0"/>
-</item>
-<item historyLabel="funkcje.c" index="0">
-<position info="not_deleted" x="696" y="0"/>
-</item>
-<item historyLabel="funkcje.h" index="3">
-<position info="not_deleted" x="646" y="74"/>
-</item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="592" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="224" y="15"/>
-</item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="592" y="0"/>
-</item>
-<item historyLabel="funkcje.c" index="0">
-<position info="not_deleted" x="229" y="0"/>
-</item>
-<item historyLabel="funkcje.h" index="3">
-<position info="not_deleted" x="0" y="199"/>
-</item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="592" y="0"/>
-</item>
-<item historyLabel="funkcje.c" index="0">
-<position info="not_deleted" x="227" y="0"/>
-</item>
-<item historyLabel="funkcje.h" index="3">
-<position info="not_deleted" x="0" y="199"/>
-</item>
-<item historyLabel="main.h" index="2">
-<position info="not_deleted" x="592" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="224" y="15"/>
+<item historyLabel="funkcje.h" index="1">
+<position/>
 </item>
 <item historyLabel="main.h" index="4">
-<position info="not_deleted" x="592" y="0"/>
+<position info="not_deleted" x="585" y="0"/>
 </item>
-<item historyLabel="funkcje.h" index="5">
-<position info="not_deleted" x="0" y="199"/>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="315" y="0"/>
 </item>
-<item historyLabel="funkcje.c" index="6">
-<position info="not_deleted" x="643" y="0"/>
+<item historyLabel="usuwanie_plikow.c" index="2">
+<position/>
 </item>
-<item historyLabel="stm32_ub_usb_msc_host.c" index="7">
-<position info="not_deleted" x="2795" y="0"/>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="315" y="0"/>
 </item>
-<item historyLabel="usbh_core.c" index="8">
-<position info="not_deleted" x="3033" y="12"/>
+<item historyLabel="usuwanie_plikow.c" index="2">
+<position/>
 </item>
-<item historyLabel="stm32_ub_usb_msc_host.c" index="7">
-<position info="not_deleted" x="1935" y="0"/>
+<item historyLabel="funkcje.h" index="1">
+<position/>
 </item>
-<item historyLabel="usbh_core.c" index="8">
-<position info="not_deleted" x="1500" y="0"/>
+<item historyLabel="usuwanie_plikow.c" index="2">
+<position/>
 </item>
-<item historyLabel="usb_bsp.h" index="9">
-<position info="not_deleted" x="453" y="0"/>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="315" y="0"/>
 </item>
-<item historyLabel="usbh_core.c" index="8">
-<position info="not_deleted" x="2233" y="0"/>
+<item historyLabel="usuwanie_plikow.c" index="2">
+<position/>
 </item>
-<item historyLabel="usb_bsp.h" index="9">
-<position info="not_deleted" x="453" y="0"/>
+<item historyLabel="usuwanie_plikow.h" index="3">
+<position/>
 </item>
-<item historyLabel="stm32_ub_usb_msc_host.c" index="7">
-<position info="not_deleted" x="1935" y="0"/>
+<item historyLabel="lista_plikow.h" index="5">
+<position/>
 </item>
-<item active="true" historyLabel="funkcje.c" index="6">
-<position info="not_deleted" x="643" y="0"/>
+<item historyLabel="lista_plikow.c" index="6">
+<position/>
+</item>
+<item historyLabel="funkcje.h" index="1">
+<position/>
+</item>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="315" y="0"/>
+</item>
+<item historyLabel="funkcje.h" index="1">
+<position/>
+</item>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="213" y="0"/>
+</item>
+<item historyLabel="funkcje.h" index="1">
+<position/>
+</item>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="213" y="0"/>
+</item>
+<item historyLabel="main.h" index="4">
+<position/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="239" y="10"/>
+</item>
+<item historyLabel="main.h" index="4">
+<position/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="239" y="10"/>
+</item>
+<item historyLabel="usuwanie_plikow.c" index="2">
+<position/>
+</item>
+<item historyLabel="usuwanie_plikow.h" index="3">
+<position/>
+</item>
+<item historyLabel="lista_plikow.h" index="5">
+<position/>
+</item>
+<item historyLabel="lista_plikow.c" index="6">
+<position/>
+</item>
+<item historyLabel="main.c" index="7">
+<position/>
+</item>
+<item historyLabel="main.h" index="4">
+<position/>
+</item>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="213" y="0"/>
+</item>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="394" y="0"/>
+</item>
+<item historyLabel="init.c" index="8">
+<position/>
+</item>
+<item historyLabel="init.h" index="9">
+<position info="not_deleted" x="45" y="0"/>
+</item>
+<item historyLabel="init.c" index="8">
+<position/>
+</item>
+<item historyLabel="init.h" index="9">
+<position info="not_deleted" x="45" y="0"/>
+</item>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="init.c" index="8">
+<position info="not_deleted" x="586" y="0"/>
+</item>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="1252" y="0"/>
+</item>
+<item historyLabel="funkcje.h" index="1">
+<position/>
+</item>
+<item active="true" historyLabel="funkcje.c" index="0">
+<position info="not_deleted" x="1252" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -415,6 +439,27 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="init.c" tooltip="STM32F4_PenDriveProject_KWPS/lib/init.c">
+<persistable path="/STM32F4_PenDriveProject_KWPS/lib/init.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="init.h" tooltip="STM32F4_PenDriveProject_KWPS/lib/init.h">
+<persistable path="/STM32F4_PenDriveProject_KWPS/lib/init.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lista_plikow.c" tooltip="STM32F4_PenDriveProject_KWPS/lista_plikow.c">
+<persistable path="/STM32F4_PenDriveProject_KWPS/lista_plikow.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lista_plikow.h" tooltip="STM32F4_PenDriveProject_KWPS/lista_plikow.h">
+<persistable path="/STM32F4_PenDriveProject_KWPS/lista_plikow.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="lista_plikow" tooltip="STM32F4_PenDriveProject_KWPS/lista_plikow">
+<persistable path="/STM32F4_PenDriveProject_KWPS/lista_plikow"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usuwanie_plikow.h" tooltip="STM32F4_PenDriveProject_KWPS/usuwanie_plikow.h">
+<persistable path="/STM32F4_PenDriveProject_KWPS/usuwanie_plikow.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usuwanie_plikow.c" tooltip="STM32F4_PenDriveProject_KWPS/usuwanie_plikow.c">
+<persistable path="/STM32F4_PenDriveProject_KWPS/usuwanie_plikow.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_bsp.h" tooltip="STM32F4_PenDriveProject_KWPS/ub_lib/usb_msc_host_lolevel/usb_bsp.h">
 <persistable path="/STM32F4_PenDriveProject_KWPS/ub_lib/usb_msc_host_lolevel/usb_bsp.h"/>
 </file>
@@ -438,27 +483,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ff.c" tooltip="STM32F4_PenDriveProject_KWPS/ub_lib/fatfs/ff.c">
 <persistable path="/STM32F4_PenDriveProject_KWPS/ub_lib/fatfs/ff.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32_ub_usb_msc_host.h" tooltip="STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_usb_msc_host.h">
-<persistable path="/STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_usb_msc_host.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32_ub_led.c" tooltip="STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_led.c">
-<persistable path="/STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_led.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32_ub_led.h" tooltip="STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_led.h">
-<persistable path="/STM32F4_PenDriveProject_KWPS/ub_lib/stm32_ub_led.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ff.c" tooltip="FlashTest-Coocox/ub_lib/fatfs/ff.c">
-<persistable path="/FlashTest-Coocox/ub_lib/fatfs/ff.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ff.h" tooltip="FlashTest-Coocox/ub_lib/fatfs/ff.h">
-<persistable path="/FlashTest-Coocox/ub_lib/fatfs/ff.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32_ub_led.h" tooltip="FlashTest-Coocox/ub_lib/stm32_ub_led.h">
-<persistable path="/FlashTest-Coocox/ub_lib/stm32_ub_led.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="STM32F4_PebdriveProject_KWPS/main.c">
-<persistable path="/STM32F4_PebdriveProject_KWPS/main.c"/>
 </file>
 </mruList>
 </workbench>

@@ -119,6 +119,7 @@
     <File name="ub_lib/fatfs" path="" type="2"/>
     <File name="lib" path="" type="2"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_msc_scsi.h" path="ub_lib/usb_msc_host_lolevel/usbh_msc_scsi.h" type="1"/>
+    <File name="lista_plikow.h" path="lista_plikow.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usb_hcd.h" path="ub_lib/usb_msc_host_lolevel/usb_hcd.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usb_bsp.h" path="ub_lib/usb_msc_host_lolevel/usb_bsp.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_stdreq.c" path="ub_lib/usb_msc_host_lolevel/usbh_stdreq.c" type="1"/>
@@ -141,6 +142,7 @@
     <File name="cmsis_lib/source/stm32f4xx_exti.c" path="cmsis_lib/source/stm32f4xx_exti.c" type="1"/>
     <File name="cmsis_boot/system_stm32f4xx.c" path="cmsis_boot/system_stm32f4xx.c" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usb_hcd.c" path="ub_lib/usb_msc_host_lolevel/usb_hcd.c" type="1"/>
+    <File name="lista_plikow.c" path="lista_plikow.c" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_msc_bot.h" path="ub_lib/usb_msc_host_lolevel/usbh_msc_bot.h" type="1"/>
     <File name="ub_lib/fatfs/integer.h" path="ub_lib/fatfs/integer.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usb_core.c" path="ub_lib/usb_msc_host_lolevel/usb_core.c" type="1"/>

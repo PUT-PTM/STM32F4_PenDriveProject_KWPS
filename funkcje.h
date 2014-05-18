@@ -7,6 +7,7 @@
 #ifndef FUNKCJE_H
 #define FUNKCJE_H
 
+//Biblioteki standardowe:
 //------------------------------------------------------------------------
 #include "init.h"
 #include "stm32f4xx.h"
@@ -19,9 +20,14 @@
 #include "stm32_ub_led.h"
 //------------------------------------------------------------------------
 
-
+//Biblioteki z funkcjami do obs³ugi pamiêci masowej:
+//------------------------------------------------------------------------
 #include "usuwanie_plikow.h"
+#include "lista_plikow.h"
+//------------------------------------------------------------------------
 
+
+//Funkcje z pliku funkcje.c
 void menu(void);
 
 //-------------------------------------------------------------------------------

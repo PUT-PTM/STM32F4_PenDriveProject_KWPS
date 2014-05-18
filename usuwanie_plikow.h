@@ -24,7 +24,7 @@ char lfnBuffer[512];
 char sBuffer[256];
 char sBuffer2Write[1024];
 
-
+//Funkcje z pliku usuwanie_plikow.c
 void usuwanie_plikow(void);
 
 //-------------------------------------------------------------------------------

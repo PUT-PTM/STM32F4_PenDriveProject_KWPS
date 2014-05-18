@@ -15,14 +15,14 @@ void initButton() {
 
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
 
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN; // tryb
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN; // tryb pracy
 	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL; // push-pull
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0; // guziczek
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0; // aktywacja guziczka
 	GPIO_Init(GPIOA, &GPIO_InitStructure) ;
 }
 
 
-void initTimer()
+void initTimer() // inicjalizacja Timera
 {
 
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM4, ENABLE);
