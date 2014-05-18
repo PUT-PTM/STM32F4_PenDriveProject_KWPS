@@ -5,8 +5,9 @@
 #include "main.h"
 
 
-void main(void)
+int main()
 {
 	menu();
 
+	return 0;
 }

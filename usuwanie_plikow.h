@@ -2,10 +2,10 @@
 // Authors: Konrad Witkowski  &  Piotr Szczap
 //------------------------------------------------------------------------
 
-// funkcje.h
+// usuwanie_plikow.h
 //------------------------------------------------------------------------
-#ifndef FUNKCJE_H
-#define FUNKCJE_H
+#ifndef USUWANIE_PLIKOW_H
+#define USUWANIE_PLIKOW_H
 
 //------------------------------------------------------------------------
 #include "init.h"
@@ -19,10 +19,13 @@
 #include "stm32_ub_led.h"
 //------------------------------------------------------------------------
 
+//LFN - rozmiar nazwy pliku
+char lfnBuffer[512];
+char sBuffer[256];
+char sBuffer2Write[1024];
 
-#include "usuwanie_plikow.h"
 
-void menu(void);
+void usuwanie_plikow(void);
 
 //-------------------------------------------------------------------------------
 #endif
