@@ -86,6 +86,7 @@
     <File name="cmsis_boot" path="" type="2"/>
     <File name="funkcje.h" path="funkcje.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_ioreq.h" path="ub_lib/usb_msc_host_lolevel/usbh_ioreq.h" type="1"/>
+    <File name="usuwanie_plikow_i_katalogow.c" path="usuwanie_plikow_i_katalogow.c" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_hcs.c" path="ub_lib/usb_msc_host_lolevel/usbh_hcs.c" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_usr.h" path="ub_lib/usb_msc_host_lolevel/usbh_usr.h" type="1"/>
     <File name="ub_lib/fatfs/lo_level_ub/stm32_ub_usbdisk.c" path="ub_lib/fatfs/lo_level_ub/stm32_ub_usbdisk.c" type="1"/>
@@ -118,11 +119,12 @@
     <File name="cmsis_boot/system_stm32f4xx.h" path="cmsis_boot/system_stm32f4xx.h" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
     <File name="ub_lib/fatfs/lo_level_ub/stm32_ub_usbdisk.h" path="ub_lib/fatfs/lo_level_ub/stm32_ub_usbdisk.h" type="1"/>
+    <File name="usuwanie_plikow_i_katalogow.h" path="usuwanie_plikow_i_katalogow.h" type="1"/>
     <File name="lib" path="" type="2"/>
     <File name="ub_lib/fatfs" path="" type="2"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_msc_scsi.h" path="ub_lib/usb_msc_host_lolevel/usbh_msc_scsi.h" type="1"/>
-    <File name="lista_plikow.h" path="lista_plikow.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usb_hcd.h" path="ub_lib/usb_msc_host_lolevel/usb_hcd.h" type="1"/>
+    <File name="lista_plikow.h" path="lista_plikow.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usb_bsp.h" path="ub_lib/usb_msc_host_lolevel/usb_bsp.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_core.h" path="ub_lib/usb_msc_host_lolevel/usbh_core.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_stdreq.c" path="ub_lib/usb_msc_host_lolevel/usbh_stdreq.c" type="1"/>

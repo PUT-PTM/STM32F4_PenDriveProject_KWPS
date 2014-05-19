@@ -2,12 +2,11 @@
 // Authors: Konrad Witkowski  &  Piotr Szczap
 //------------------------------------------------------------------------
 
-// funkcje.h
+// usuwanie_plikow_i_katalogow.h
 //------------------------------------------------------------------------
-#ifndef FUNKCJE_H
-#define FUNKCJE_H
+#ifndef USUWANIE_PLIKOW_I_KATALOGOW_H
+#define USUWANIE_PLIKOW_I_KATALOGOW_H
 
-//Biblioteki standardowe:
 //------------------------------------------------------------------------
 #include "init.h"
 #include "stm32f4xx.h"
@@ -20,17 +19,13 @@
 #include "stm32_ub_led.h"
 //------------------------------------------------------------------------
 
-//Biblioteki z funkcjami do obs³ugi pamiêci masowej:
-//------------------------------------------------------------------------
-#include "usuwanie_plikow.h"
-#include "lista_plikow.h"
-#include "usuwanie_plikow_i_katalogow.h"
-#include "lista_plikow_i_katalogow.h"
-//------------------------------------------------------------------------
+//LFN - rozmiar nazwy pliku
+char lfnBuffer[512];
+char sBuffer[256];
+char sBuffer2Write[1024];
 
-
-//Funkcje z pliku funkcje.c
-void menu(void);
+//Funkcje z pliku usuwanie_plikow.c
+void usuwanie_plikow_i_katalogow(void);
 
 //-------------------------------------------------------------------------------
 #endif

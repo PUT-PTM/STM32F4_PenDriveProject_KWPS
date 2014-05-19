@@ -235,6 +235,24 @@ Discarded input sections
                 0x00000000       0x5c ..\obj\init.o
  .text.initIRQ  0x00000000       0x54 ..\obj\init.o
  .text          0x00000000        0x0 ..\obj\usbh_msc_core.o
+ .text          0x00000000        0x0 ..\obj\usuwanie_plikow_i_katalogow.o
+ .data          0x00000000        0x0 ..\obj\usuwanie_plikow_i_katalogow.o
+ .bss           0x00000000        0x0 ..\obj\usuwanie_plikow_i_katalogow.o
+ .rodata        0x00000000        0x4 ..\obj\usuwanie_plikow_i_katalogow.o
+ .text.usuwanie_plikow_i_katalogow
+                0x00000000      0x128 ..\obj\usuwanie_plikow_i_katalogow.o
+ .debug_info    0x00000000      0x5a7 ..\obj\usuwanie_plikow_i_katalogow.o
+ .debug_abbrev  0x00000000      0x119 ..\obj\usuwanie_plikow_i_katalogow.o
+ .debug_loc     0x00000000       0x3a ..\obj\usuwanie_plikow_i_katalogow.o
+ .debug_aranges
+                0x00000000       0x20 ..\obj\usuwanie_plikow_i_katalogow.o
+ .debug_ranges  0x00000000       0x10 ..\obj\usuwanie_plikow_i_katalogow.o
+ .debug_line    0x00000000      0x2d1 ..\obj\usuwanie_plikow_i_katalogow.o
+ .debug_str     0x00000000      0x607 ..\obj\usuwanie_plikow_i_katalogow.o
+ .comment       0x00000000       0x71 ..\obj\usuwanie_plikow_i_katalogow.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\usuwanie_plikow_i_katalogow.o
+ .debug_frame   0x00000000       0x30 ..\obj\usuwanie_plikow_i_katalogow.o
  .text          0x00000000        0x0 ..\obj\usbh_core.o
  .text          0x00000000        0x0 ..\obj\stm32_ub_sdcard.o
  .data          0x00000000        0x0 ..\obj\stm32_ub_sdcard.o
@@ -1734,6 +1752,7 @@ LOAD ..\obj\stm32_ub_fatfs.o
 LOAD ..\obj\stm32f4xx_rcc.o
 LOAD ..\obj\init.o
 LOAD ..\obj\usbh_msc_core.o
+LOAD ..\obj\usuwanie_plikow_i_katalogow.o
 LOAD ..\obj\usbh_core.o
 LOAD ..\obj\stm32_ub_sdcard.o
 LOAD ..\obj\stm32f4xx_gpio.o
@@ -1965,39 +1984,39 @@ OUTPUT(STM32F4_PenDriveProject_KWPS.elf elf32-littlearm)
  .debug_ranges  0x00000a50       0x30 ..\obj\misc.o
  .debug_ranges  0x00000a80       0x60 ..\obj\usb_hcd_int.o
 
-.debug_line     0x00000000     0x6bb2
+.debug_line     0x00000000     0x6bca
  .debug_line    0x00000000      0x600 ..\obj\usb_core.o
  .debug_line    0x00000600      0x276 ..\obj\stm32_ub_usb_msc_host.o
  .debug_line    0x00000876      0x24d ..\obj\usbh_hcs.o
  .debug_line    0x00000ac3      0x386 ..\obj\usbh_stdreq.o
- .debug_line    0x00000e49      0x280 ..\obj\funkcje.o
- .debug_line    0x000010c9      0x29a ..\obj\diskio.o
- .debug_line    0x00001363       0xbc ..\obj\startup_stm32f4xx.o
- .debug_line    0x0000141f      0x2b0 ..\obj\stm32_ub_led.o
- .debug_line    0x000016cf      0x1db ..\obj\main.o
- .debug_line    0x000018aa      0x37e ..\obj\stm32_ub_fatfs.o
- .debug_line    0x00001c28      0x5e1 ..\obj\stm32f4xx_rcc.o
- .debug_line    0x00002209      0x27d ..\obj\init.o
- .debug_line    0x00002486      0x309 ..\obj\usbh_msc_core.o
- .debug_line    0x0000278f      0x3e3 ..\obj\usbh_core.o
- .debug_line    0x00002b72      0x252 ..\obj\stm32_ub_sdcard.o
- .debug_line    0x00002dc4      0x385 ..\obj\stm32f4xx_gpio.o
- .debug_line    0x00003149      0x3bd ..\obj\stm32_ub_usbdisk.o
- .debug_line    0x00003506      0x394 ..\obj\usbh_msc_scsi.o
- .debug_line    0x0000389a      0x2d8 ..\obj\lista_plikow.o
- .debug_line    0x00003b72      0x1f9 ..\obj\system_stm32f4xx.o
- .debug_line    0x00003d6b      0x1c3 ..\obj\syscalls.o
- .debug_line    0x00003f2e      0x34f ..\obj\usbh_usr.o
- .debug_line    0x0000427d      0x147 ..\obj\ccsbcs.o
- .debug_line    0x000043c4      0x2fd ..\obj\usb_bsp.o
- .debug_line    0x000046c1      0x253 ..\obj\stm32_ub_atadrive.o
- .debug_line    0x00004914     0x110c ..\obj\ff.o
- .debug_line    0x00005a20      0x278 ..\obj\usb_hcd.o
- .debug_line    0x00005c98      0x321 ..\obj\usbh_msc_bot.o
- .debug_line    0x00005fb9      0x2b9 ..\obj\usuwanie_plikow.o
- .debug_line    0x00006272      0x2a1 ..\obj\usbh_ioreq.o
- .debug_line    0x00006513      0x28b ..\obj\misc.o
- .debug_line    0x0000679e      0x414 ..\obj\usb_hcd_int.o
+ .debug_line    0x00000e49      0x28c ..\obj\funkcje.o
+ .debug_line    0x000010d5      0x29a ..\obj\diskio.o
+ .debug_line    0x0000136f       0xbc ..\obj\startup_stm32f4xx.o
+ .debug_line    0x0000142b      0x2b0 ..\obj\stm32_ub_led.o
+ .debug_line    0x000016db      0x1e7 ..\obj\main.o
+ .debug_line    0x000018c2      0x37e ..\obj\stm32_ub_fatfs.o
+ .debug_line    0x00001c40      0x5e1 ..\obj\stm32f4xx_rcc.o
+ .debug_line    0x00002221      0x27d ..\obj\init.o
+ .debug_line    0x0000249e      0x309 ..\obj\usbh_msc_core.o
+ .debug_line    0x000027a7      0x3e3 ..\obj\usbh_core.o
+ .debug_line    0x00002b8a      0x252 ..\obj\stm32_ub_sdcard.o
+ .debug_line    0x00002ddc      0x385 ..\obj\stm32f4xx_gpio.o
+ .debug_line    0x00003161      0x3bd ..\obj\stm32_ub_usbdisk.o
+ .debug_line    0x0000351e      0x394 ..\obj\usbh_msc_scsi.o
+ .debug_line    0x000038b2      0x2d8 ..\obj\lista_plikow.o
+ .debug_line    0x00003b8a      0x1f9 ..\obj\system_stm32f4xx.o
+ .debug_line    0x00003d83      0x1c3 ..\obj\syscalls.o
+ .debug_line    0x00003f46      0x34f ..\obj\usbh_usr.o
+ .debug_line    0x00004295      0x147 ..\obj\ccsbcs.o
+ .debug_line    0x000043dc      0x2fd ..\obj\usb_bsp.o
+ .debug_line    0x000046d9      0x253 ..\obj\stm32_ub_atadrive.o
+ .debug_line    0x0000492c     0x110c ..\obj\ff.o
+ .debug_line    0x00005a38      0x278 ..\obj\usb_hcd.o
+ .debug_line    0x00005cb0      0x321 ..\obj\usbh_msc_bot.o
+ .debug_line    0x00005fd1      0x2b9 ..\obj\usuwanie_plikow.o
+ .debug_line    0x0000628a      0x2a1 ..\obj\usbh_ioreq.o
+ .debug_line    0x0000652b      0x28b ..\obj\misc.o
+ .debug_line    0x000067b6      0x414 ..\obj\usb_hcd_int.o
 
 .debug_str      0x00000000     0x538d
  .debug_str     0x00000000     0x1046 ..\obj\usb_core.o
