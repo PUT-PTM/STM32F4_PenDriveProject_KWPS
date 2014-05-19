@@ -4,8 +4,8 @@
 
 // lista_plikow_i_katalogow.h
 //------------------------------------------------------------------------
-#ifndef LISTA_PLIKOW_H
-#define LISTA_PLIKOW_H
+#ifndef LISTA_PLIKOW_I_KATALOGOW_H
+#define LISTA_PLIKOW_I_KATALOGOW_H
 
 //------------------------------------------------------------------------
 #include "init.h"
@@ -25,7 +25,7 @@ char sBuffer[256];
 char sBuffer2Write[1024];
 
 //Funkcje z pliku lista_plikow_i_katalogow.c
-void lista_plikow(void);
+void lista_plikow_i_katalogow(void);
 
 //-------------------------------------------------------------------------------
 #endif

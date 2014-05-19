@@ -3,15 +3,15 @@
 //------------------------------------------------------------------------
 
 
-// lista_plikow.c
+// lista_plikow_i_katalogow.c
 //------------------------------------------------------------------------
 
 #include "lista_plikow_i_katalogow.h"
 
-// lista_plikow
-void lista_plikow(void)
+// lista_plikow_i_katalogow
+void lista_plikow_i_katalogow(void)
 {
-	char sBuffer2Write[1024];
+
 	FILINFO fno;
 	DIR dir;
 	FIL myFile;
@@ -42,13 +42,14 @@ unsigned int counter = 0;
 
        	if ( UB_Fatfs_Mount ( USB_0 ) == FATFS_OK ) // Montowanie pendraiva
        	{
-          if ( UB_Fatfs_OpenFile ( &myFile, "USB_File.txt", F_WR_CLEAR ) == FATFS_OK )
+          if ( UB_Fatfs_OpenFile ( &myFile, "USB_File_LIST.txt", F_WR_CLEAR ) == FATFS_OK )
           { //Poprawne utworzenie pliku
             //Zapisywanie do pliku danych
-	UB_Fatfs_WriteString ( &myFile, "Szczap Piotr i Witkowski Konrad \n 		PREZENTUJ¥\n" );
-            UB_Fatfs_WriteString ( &myFile, "		STM32F4_PenDriveProject_KWPS\n" );
+	UB_Fatfs_WriteString ( &myFile, "\t\tSzczap Piotr i Witkowski Konrad \n   		\t  PREZENTUJ¥\n" );
+    UB_Fatfs_WriteString ( &myFile, "		STM32F4_PenDriveProject_KWPS\n" );
+    UB_Fatfs_WriteString ( &myFile, "\n		 Program nr.2 Lista plików\n" );
 
-            UB_Fatfs_WriteString ( &myFile, "NAZWY PLIKÓW:\n" );
+            UB_Fatfs_WriteString ( &myFile, "NAZWY PLIKÓW:\n\n" );
 
     		res = f_opendir(&dir, path); // Open the directory
     		if (res == FR_OK)
@@ -68,10 +69,15 @@ unsigned int counter = 0;
 				//
 				if ( !(fno.fattrib & AM_DIR) )
 				{
-				  sprintf ( sBuffer, "%s/%s\tplik\n", path, fn );
+				  sprintf ( sBuffer, "%s/%s\t\t\tplik\n", path, fn );
 				  strcat ( sBuffer2Write, sBuffer );
 				} // if
-
+				else {
+				{
+					sprintf ( sBuffer, "%s/%s\t\t\tkatalog\n", path, fn );
+					strcat ( sBuffer2Write, sBuffer );
+				}//else
+				}
 			  } // for
 
 
@@ -102,3 +108,4 @@ unsigned int counter = 0;
     }
   }
 }
+
