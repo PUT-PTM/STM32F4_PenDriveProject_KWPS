@@ -2,10 +2,10 @@
 // Authors: Konrad Witkowski  &  Piotr Szczap
 //------------------------------------------------------------------------
 
-// funkcje.h
+// menu.h
 //------------------------------------------------------------------------
-#ifndef FUNKCJE_H
-#define FUNKCJE_H
+#ifndef MENU_H
+#define MENU_H
 
 //Biblioteki standardowe:
 //------------------------------------------------------------------------
@@ -22,8 +22,15 @@
 
 //Biblioteki z funkcjami do obs³ugi pamiêci masowej:
 //------------------------------------------------------------------------
-#include "menu.h"
+#include "usuwanie_plikow.h"
+#include "lista_plikow.h"
+#include "usuwanie_plikow_i_katalogow.h"
+#include "lista_plikow_i_katalogow.h"
 //------------------------------------------------------------------------
+
+
+//Funkcje z pliku funkcje.c
+void menu(void);
 
 //-------------------------------------------------------------------------------
 #endif

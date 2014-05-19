@@ -90,6 +90,7 @@
     <File name="ub_lib/usb_msc_host_lolevel/usbh_hcs.c" path="ub_lib/usb_msc_host_lolevel/usbh_hcs.c" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_usr.h" path="ub_lib/usb_msc_host_lolevel/usbh_usr.h" type="1"/>
     <File name="ub_lib/fatfs/lo_level_ub/stm32_ub_usbdisk.c" path="ub_lib/fatfs/lo_level_ub/stm32_ub_usbdisk.c" type="1"/>
+    <File name="menu.c" path="menu.c" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
     <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
@@ -112,6 +113,7 @@
     <File name="lista_plikow_i_katalogow.c" path="lista_plikow_i_katalogow.c" type="1"/>
     <File name="ub_lib/stm32_ub_led.h" path="ub_lib/stm32_ub_led.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usb_bsp.c" path="ub_lib/usb_msc_host_lolevel/usb_bsp.c" type="1"/>
+    <File name="menu.h" path="menu.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_stdreq.h" path="ub_lib/usb_msc_host_lolevel/usbh_stdreq.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_msc_core.c" path="ub_lib/usb_msc_host_lolevel/usbh_msc_core.c" type="1"/>
     <File name="ub_lib/fatfs/ff.h" path="ub_lib/fatfs/ff.h" type="1"/>
