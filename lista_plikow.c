@@ -49,7 +49,7 @@ unsigned int counter = 0;
       UB_Fatfs_WriteString ( &myFile, "		STM32F4_PenDriveProject_KWPS\n" );
       UB_Fatfs_WriteString ( &myFile, "\n		 Program nr.3 Lista plików\n" );
 
-            UB_Fatfs_WriteString ( &myFile, "NAZWY PLIKÓW:\n" );
+            UB_Fatfs_WriteString ( &myFile, "NAZWY PLIKÓW\t Rozmiar[KB]\t katalog/plik\n\n" );
 
     		res = f_opendir(&dir, path); // Open the directory
     		if (res == FR_OK)
@@ -69,7 +69,7 @@ unsigned int counter = 0;
 				//
 				if ( !(fno.fattrib & AM_DIR) )
 				{
-				  sprintf ( sBuffer, "%s/%s\tplik\n", path, fn );
+					sprintf ( sBuffer, "%s/%s\t%lu plik\n", path, fn, fno.fsize );
 				  strcat ( sBuffer2Write, sBuffer );
 				} // if
 
