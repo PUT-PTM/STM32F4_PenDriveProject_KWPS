@@ -63,11 +63,13 @@ void menu(void)
 		}
 		else if(p<7500000)//RED
 		{
-			//lista_plikow();
+			lista_plikow();
+			czysc();
 		}
 		else if(p<10000000)//BLUE
 		{
 			lista_plikow_i_katalogow();
+			czysc();
 		}
 
 	}// while(1)

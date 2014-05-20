@@ -11,7 +11,7 @@
 // lista_plikow
 void lista_plikow(void)
 {
-	char sBuffer2Write[1024];
+
 	FILINFO fno;
 	DIR dir;
 	FIL myFile;

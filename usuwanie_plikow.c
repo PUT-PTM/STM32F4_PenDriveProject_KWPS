@@ -67,7 +67,10 @@ void usuwanie_plikow(void)
 				fn = fno.fname;
 #endif
 
-				f_unlink(fn);
+				if ( !(fno.fattrib & AM_DIR) )
+												{
+													f_unlink(fn);
+												}
 			  } // for
 
     		} // if

@@ -11,7 +11,7 @@
 // lista_plikow_i_katalogow
 void lista_plikow_i_katalogow(void)
 {
-	char sBuffer2Write[1024];
+
 	FILINFO fno;
 	DIR dir;
 	FIL myFile;

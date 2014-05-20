@@ -7,6 +7,7 @@
 <orientation position="512" view="org.coocox.component.ui.ComponentView"/>
 <orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
 <orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
+<orientation position="512" view="org.coocox.component.ui.Help"/>
 </fastViewData>
 <perspectiveBar/>
 <page focus="true" label="Workspace - CooCox CoBuilder">
@@ -55,15 +56,15 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/funkcje.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="291" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="menu.c" partName="menu.c" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/menu.c" title="menu.c" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/menu.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="menu.c" partName="menu.c" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/menu.c" title="menu.c" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/menu.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/menu.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1238" selectionTopPixel="541"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1316" selectionTopPixel="541"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="menu.h" partName="menu.h" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/menu.h" title="menu.h" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/menu.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/menu.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="900" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="lista_plikow.c" partName="lista_plikow.c" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/lista_plikow.c" title="lista_plikow.c" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/lista_plikow.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lista_plikow.c" partName="lista_plikow.c" path="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/lista_plikow.c" title="lista_plikow.c" tooltip="C:/Users/witkowski01/Documents/GitHub/STM32F4_PenDriveProject_KWPS/lista_plikow.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4_PenDriveProject_KWPS/lista_plikow.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1151" selectionTopPixel="1"/>
 </editor>
@@ -312,10 +313,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/menu.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/lista_plikow_i_katalogow.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/lista_plikow.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4_PenDriveProject_KWPS/menu.c"/>
 </editors>
-<item historyLabel="funkcje.c" index="2">
-<position info="not_deleted" x="317" y="0"/>
-</item>
 <item historyLabel="menu.c" index="4">
 <position info="not_deleted" x="1358" y="0"/>
 </item>
@@ -460,8 +459,11 @@
 <item historyLabel="lista_plikow_i_katalogow.c" index="6">
 <position info="not_deleted" x="448" y="0"/>
 </item>
-<item active="true" historyLabel="lista_plikow.c" index="9">
+<item historyLabel="lista_plikow.c" index="9">
 <position info="not_deleted" x="1151" y="0"/>
+</item>
+<item active="true" historyLabel="menu.c" index="13">
+<position info="not_deleted" x="1238" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

@@ -90,14 +90,14 @@
     <File name="ub_lib/usb_msc_host_lolevel/usbh_hcs.c" path="ub_lib/usb_msc_host_lolevel/usbh_hcs.c" type="1"/>
     <File name="ub_lib/fatfs/lo_level_ub/stm32_ub_usbdisk.c" path="ub_lib/fatfs/lo_level_ub/stm32_ub_usbdisk.c" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_usr.h" path="ub_lib/usb_msc_host_lolevel/usbh_usr.h" type="1"/>
-    <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
     <File name="menu.c" path="menu.c" type="1"/>
     <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
     <File name="funkcje.c" path="funkcje.c" type="1"/>
-    <File name="ub_lib/fatfs/diskio.h" path="ub_lib/fatfs/diskio.h" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usbh_def.h" path="ub_lib/usb_msc_host_lolevel/usbh_def.h" type="1"/>
     <File name="ub_lib/fatfs/ffconf.h" path="ub_lib/fatfs/ffconf.h" type="1"/>
+    <File name="ub_lib/fatfs/diskio.h" path="ub_lib/fatfs/diskio.h" type="1"/>
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
     <File name="cmsis/core_cm4.h" path="cmsis/core_cm4.h" type="1"/>
     <File name="main.h" path="main.h" type="1"/>
@@ -143,9 +143,9 @@
     <File name="ub_lib/stm32_ub_fatfs.h" path="ub_lib/stm32_ub_fatfs.h" type="1"/>
     <File name="ub_lib/fatfs/ccsbcs.c" path="ub_lib/fatfs/ccsbcs.c" type="1"/>
     <File name="ub_lib/fatfs/ff.c" path="ub_lib/fatfs/ff.c" type="1"/>
-    <File name="ub_lib/usb_msc_host_lolevel/usbh_conf.h" path="ub_lib/usb_msc_host_lolevel/usbh_conf.h" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_exti.h" path="cmsis_lib/include/stm32f4xx_exti.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_exti.c" path="cmsis_lib/source/stm32f4xx_exti.c" type="1"/>
+    <File name="ub_lib/usb_msc_host_lolevel/usbh_conf.h" path="ub_lib/usb_msc_host_lolevel/usbh_conf.h" type="1"/>
     <File name="cmsis_boot/system_stm32f4xx.c" path="cmsis_boot/system_stm32f4xx.c" type="1"/>
     <File name="ub_lib/usb_msc_host_lolevel/usb_hcd.c" path="ub_lib/usb_msc_host_lolevel/usb_hcd.c" type="1"/>
     <File name="lista_plikow.c" path="lista_plikow.c" type="1"/>
