@@ -59,15 +59,15 @@ void menu(void)
 		}
 		else if(p<5000000)//ORANGE
 		{
-			lista_plikow();
+			usuwanie_plikow_i_katalogow();
 		}
 		else if(p<7500000)//RED
 		{
-
+			//lista_plikow();
 		}
 		else if(p<10000000)//BLUE
 		{
-
+			lista_plikow_i_katalogow();
 		}
 
 	}// while(1)

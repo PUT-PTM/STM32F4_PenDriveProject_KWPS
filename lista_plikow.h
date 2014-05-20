@@ -22,7 +22,6 @@
 //LFN - rozmiar nazwy pliku
 char lfnBuffer[512];
 char sBuffer[256];
-char sBuffer2Write[1024];
 
 //Funkcje z pliku lista_plikow_i_katalogow.c
 void lista_plikow(void);

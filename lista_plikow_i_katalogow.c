@@ -11,7 +11,7 @@
 // lista_plikow_i_katalogow
 void lista_plikow_i_katalogow(void)
 {
-
+	char sBuffer2Write[1024];
 	FILINFO fno;
 	DIR dir;
 	FIL myFile;
@@ -42,12 +42,12 @@ unsigned int counter = 0;
 
        	if ( UB_Fatfs_Mount ( USB_0 ) == FATFS_OK ) // Montowanie pendraiva
        	{
-          if ( UB_Fatfs_OpenFile ( &myFile, "USB_File_LIST.txt", F_WR_CLEAR ) == FATFS_OK )
+          if ( UB_Fatfs_OpenFile ( &myFile, "USB_File+Folder_LIST.txt", F_WR_CLEAR ) == FATFS_OK )
           { //Poprawne utworzenie pliku
             //Zapisywanie do pliku danych
 	UB_Fatfs_WriteString ( &myFile, "\t\tSzczap Piotr i Witkowski Konrad \n   		\t  PREZENTUJ¥\n" );
     UB_Fatfs_WriteString ( &myFile, "		STM32F4_PenDriveProject_KWPS\n" );
-    UB_Fatfs_WriteString ( &myFile, "\n		 Program nr.2 Lista plików\n" );
+    UB_Fatfs_WriteString ( &myFile, "\n		 Program nr.4 Lista plików i katalogów\n" );
 
             UB_Fatfs_WriteString ( &myFile, "NAZWY PLIKÓW:\n\n" );
 
