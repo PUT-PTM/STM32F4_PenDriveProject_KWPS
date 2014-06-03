@@ -6,6 +6,7 @@
 //------------------------------------------------------------------------
 
 #include "menu.h"
+
 // Menu
 
 void menu(void)
@@ -56,20 +57,24 @@ void menu(void)
 		if(p<2500000)//GREEN
 		{
 			usuwanie_plikow();
+			NVIC_SystemReset();
 		}
 		else if(p<5000000)//ORANGE
 		{
 			usuwanie_plikow_i_katalogow();
+			NVIC_SystemReset();
 		}
 		else if(p<7500000)//RED
 		{
 			lista_plikow();
 			czysc();
+			NVIC_SystemReset();
 		}
 		else if(p<10000000)//BLUE
 		{
 			lista_plikow_i_katalogow();
 			czysc();
+			NVIC_SystemReset();
 		}
 
 	}// while(1)
